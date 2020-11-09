@@ -1,12 +1,10 @@
-import { createStore } from 'vuex'
+import {createStore} from 'vuex'
 
 export default createStore({
-  state: {
-  },
-  mutations: {
-  },
-  actions: {
-  },
-  modules: {
-  }
+    state: {
+        API_KEY: process.env.VUE_APP_API_KEY
+    },
+    mutations: {},
+    actions: {},
+    modules: {}
 })

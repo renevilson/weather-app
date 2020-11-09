@@ -15,5 +15,5 @@ npm run serve
 npm run build
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+Для работы необходимо создать файл .env и поместить туда переменную `VUE_APP_API_KEY`. Ключ можно молучить
+на сайте `https://api.openweathermap.org/`.
