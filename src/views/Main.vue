@@ -27,13 +27,12 @@
 </template>
 <script>
 import axios from 'axios'
-
 export default {
   name: 'App',
+  components: {
+  },
   data() {
     return {
-      api_key: '0c6183bd429aff86c65f9f18701d4a53',
-      url_base: 'https://api.openweathermap.org/data/2.5/',
       query: '',
       weather: {}
     }
